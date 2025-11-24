@@ -1,0 +1,16 @@
+PackageIdentifier: yonomesh.loo
+PackageVersion: 1.0.0
+PackageName: loo
+Publisher: Yonomesh
+PublisherUrl: https://github.com/yonomesh/loo
+ShortDescription: A DNS Query Tool
+License: MIT
+LicenseUrl: https://github.com/yonomesh/loo/blob/main/LICENSE
+Copyright: Copyright (c) Yonomesh
+PackageLocale: en-US
+Description: |
+  loo is a lightweight DNS query tool designed for debugging and testing.
+Tags:
+- DNS
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0

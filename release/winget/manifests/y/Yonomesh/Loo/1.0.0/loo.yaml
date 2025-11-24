@@ -1,0 +1,9 @@
+PackageIdentifier: yonomesh.loo
+PackageVersion: 1.0.0
+Publisher: Yonomesh
+PackageName: loo
+DefaultLocale: en-US
+License: MIT
+ShortDescription: A DNS Query Tool
+ManifestType: version
+ManifestVersion: 1.10.0

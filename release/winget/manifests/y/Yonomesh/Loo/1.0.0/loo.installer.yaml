@@ -1,0 +1,16 @@
+PackageIdentifier: yonomesh.loo
+PackageVersion: 1.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: loo.exe
+UpgradeBehavior: install
+Commands:
+- loo
+ReleaseDate: 2025-11-24
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/yonomesh/loo/releases/download/v1.0.0/windows-amd64-1.0.0.zip
+    InstallerSha256: ecf48494829fecb863d1bb9575852c910935cbc0d2eecbfde9c062b01433e0a7
+ManifestType: installer
+ManifestVersion: 1.10.0
