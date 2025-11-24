@@ -4,7 +4,27 @@ A DNS Query Tool
 
 Forked from [ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
 
-# Install
+# Install(beta)
+
+```bash
+
+# macos brew
+brew tap yonomesh/tap
+brew update && brew install yonomesh/tap/loo
+
+# debian
+apt-get update
+apt-get install ca-certificates curl gnupg
+install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://yonomesh.github.io/apt/yonomesh.gpg | gpg --dearmor -o /etc/apt/keyrings/yonomesh.gpg
+chmod a+r /etc/apt/keyrings/yonomesh.gpg
+
+echo "deb [signed-by=/etc/apt/keyrings/yonomesh.gpg] https://yonomesh.github.io/apt stable main" \
+  | tee /etc/apt/sources.list.d/yonomesh.list > /dev/null
+
+apt-get update 
+apt-get install loo
+```
 
 # Usage
 
