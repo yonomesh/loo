@@ -9,8 +9,10 @@ Forked from [ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
 ```bash
 
 # macos brew
+brew install yonomesh/tap/loo
+## or
 brew tap yonomesh/tap
-brew update && brew install yonomesh/tap/loo
+brew update && brew install loo
 
 # debian
 apt-get update
