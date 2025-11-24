@@ -157,6 +157,7 @@ func usage() {
 	_, _ = os.Stdout.WriteString("Usage: loo <domain> <server> \n")
 	_, _ = os.Stdout.WriteString("<domain>: mandatory, domain name to lookup\n")
 	_, _ = os.Stdout.WriteString("<server>: mandatory, server address. Supported: plain, tcp:// (TCP), tls:// (DOT), https:// (DOH), sdns:// (DNSCrypt), quic:// (DOQ)\n")
+	_, _ = os.Stdout.WriteString("More details, see https://github.com/yonomesh/loo/blob/main/README.md\n")
 }
 
 // getQuestion returns a DNS question for the query.
