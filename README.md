@@ -7,6 +7,8 @@ Forked from [ameshkov/dnslookup](https://github.com/ameshkov/dnslookup)
 # Install(beta)
 
 ```bash
+# windows
+winget install loo
 
 # macos brew
 brew install yonomesh/tap/loo
